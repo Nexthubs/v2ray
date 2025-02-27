@@ -181,7 +181,7 @@ is_test() {
         echo $2 | egrep -i '^\w(\w|\-|\.)?+\.\w+$'
         ;;
     path)
-        echo $2 | echo $2 | egrep -i '^\/.*$'
+        echo $2 | egrep -i '^\/.*$'
         ;;
     uuid)
         echo $2 | egrep -i '[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}'
